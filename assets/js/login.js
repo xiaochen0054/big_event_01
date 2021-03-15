@@ -34,7 +34,7 @@ $(function () {
         e.preventDefault();
         // 发生ajax
         $.ajax({
-            url: 'http://api-breakingnews-web.itheima.net/api/reguser',
+            url: '/api/reguser',
             type: 'post',
             data: {
                 username: $('.reg-box input[name=username]').val(),
